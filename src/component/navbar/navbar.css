@@ -1,0 +1,117 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #070707;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  transition: 0.5s all ease;
+  }
+  
+  .navbar.active {
+    background-image: linear-gradient(to right top, #0f0e0e, #343233, #5b595b, #858486, #b1b1b4, #c0c1c6, #ced3d9, #dce4eb, #cddbe3, #bdd3d9, #aecbce, #a1c2c0);
+
+  }
+  
+  .navbar.active button {
+  background-color: white !important;
+  color: #ffffff !important;
+  border: 1px solid #ffffff !important;
+  }
+  
+  .navbar .container {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+  }
+  
+  .navbar .logo {
+  font-size: 34px;
+  font-weight: bold;
+  color: #ffffff;
+  }
+  
+  .navbar .logo .dot {
+  font-weight: bold;
+  color:rgb(14, 204, 62);
+  }
+  
+  .navbar .links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  }
+  
+  .navbar .links span {
+  white-space: nowrap;
+  color: #ffffff;
+  }
+  
+  .navbar .links .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  position: relative;
+  }
+  
+  .navbar .links .user img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  }
+  
+  .navbar .links .user .options {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 999;
+  border: 1px solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 200px;
+  font-weight: 300;
+  color: gray;
+  }
+  
+  .navbar .links button {
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: transparent;
+  cursor: pointer;
+  }
+  
+  .navbar .links button:hover {
+  background-color: #1dbf73;
+  border-color: #1dbf73;
+  }
+  
+  .navbar hr {
+  width: calc(100% - 2px);
+  height: 0;
+  border-top: 0.5px solid #ebe9e9;
+  border-bottom: 0.5px solid #ebe9e9;
+  }
+  
+  .navbar .menu {
+  width: 1100px;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  }

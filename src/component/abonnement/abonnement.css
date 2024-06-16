@@ -1,0 +1,53 @@
+.abnbody{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: space-between;
+    width: 1000px;
+    margin-left: 150px;
+    border-radius: 20px;
+
+}
+.abnp{
+    text-decoration-thickness: 5px;
+    text-decoration-line: underline ;
+    text-decoration-color:rgb(14, 204, 62); 
+    margin-left: 600px;
+    margin-top: 50px;
+    color:#000000;
+      font-family: "Montserrat", sans-serif;
+}
+.card {
+
+    margin: 40px 50px;
+
+    width: 250px;
+    height: 254px;
+    background-image: linear-gradient(163deg, #9C7598 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all .3s;
+   }
+   .info{
+    text-align: center;
+    color: rgb(77, 65, 65);
+
+   }
+   .abnh2{
+}
+   
+   .card2 {
+    width: 250px;
+    height: 254px;
+    background-color: #f3e7e7;
+    transition: all .2s;
+    border-radius: 10px;
+
+   }
+   
+   .card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+   }
+   
+   .card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+   }
